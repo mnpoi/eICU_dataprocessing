@@ -4,32 +4,6 @@
 
 This project aims to process the eICU dataset, focusing on various medical conditions. The main goal of the project is to provide cleaned, preprocessed, and analyzed data for further machine learning and statistical analysis in medical research.
 
-## Project Structure
-
-eICU_dataprocessing/
-│
-├── AKI/ # Acute Kidney Injury (AKI) data processing
-│ └── patient.ipynb # filter patient data for AKI analysis
-│
-├── AMI/ # Acute Myocardial Infarction (AMI) data processing
-│ └── patient.ipynb # filter patient data for AMI analysis
-│
-├── HF/ # Heart Failure (HF) data processing
-│ ├── lab_hf.ipynb # Heart Failure lab data processing
-│ ├── patient.ipynb # filter patient data for HF analysis
-│ ├── vasopre.ipynb # Vasopressor data processing for HF
-│ └── vital.ipynb # Heart Failure vital signs processing
-│
-├── preprocessing/ # Data preprocessing
-│ ├── apache.ipynb # Apache data processing script
-│ ├── diagnosis.ipynb # Diagnosis data processing
-│ ├── lab.ipynb # Lab data processing
-│ ├── Merge.ipynb # Data merging script
-│ ├── patient.ipynb # Patient data processing
-│ └── treatment.ipynb # Treatment data processing
-│
-├── README.md # Main project README file
-
 ## Project Details
 
 ### AKI (Acute Kidney Injury)
